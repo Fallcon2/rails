@@ -7,7 +7,7 @@ jobs:
   test:
     steps:
       - checkout
-      - run: echo "This is a test step"
+      - run: echo "This is a test step1"
 
   bundler-audit:
     machine: true
